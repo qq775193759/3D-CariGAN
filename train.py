@@ -26,6 +26,7 @@ os.environ['CUDA_VISIBLE_DEVICES']='5'
 test_name = 'test1'
 
 data_root = './data_root/'
+dataset_root = './dataset_root/'
 
     
 def PCA_IMG_loader():
@@ -36,8 +37,8 @@ def PCA_IMG_loader():
         transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
     ]
     dataloader = DataLoader(
-        PCA_IMG_OBJ_online_Dataset(data_root+'partAllpca200_icp.npy', '/home/yezipeng/talkingheadData/caricature_rewrite/CelebA-HQ-img256',
-        '/home/yezipeng/talkingheadData/caricature_rewrite/celebA_head_wo_pose_norm_npy',
+        PCA_IMG_OBJ_online_Dataset(data_root+'partAllpca200_icp.npy', dataset_root+'CelebA-HQ-img256',
+        dataset_root+'celebA_head_wo_pose_norm_npy',
         img_transforms_=transforms_),
         batch_size=opt.batch_size,
         shuffle=True,
