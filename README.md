@@ -6,14 +6,19 @@ This repository contains two parts: dataset and source code.
 
 ## 2D and 3D Caricature Dataset
 
+### 2D Caricature Dataset
+
 ![2d_dataset](./fig/2d.jpg)
+
+### 3D Caricature Dataset
+
 ![3d_dataset](./fig/3d.jpg)
 
 ### 3DCariPCA
 
 ### Download
 
-You can download the two datasets and PCA in [google drive]() and [Baidu Pan]().
+You can download the two datasets and PCA in [google drive]() and [BaiduYun](https://pan.baidu.com/s/1rtFtOeixNS1CACaZagrNLw) (code: 3kz8).
 
 ## Source Code
 
