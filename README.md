@@ -10,15 +10,19 @@ This repository contains two parts: dataset and source code.
 
 ![2d_dataset](./fig/2d.jpg)
 
+we collect 5,343 hand-drawn portrait caricature images from Pinterest.com and WebCaricature dataset with facial landmarks extracted by a landmark detector, followed by human interaction for correction if needed. 
+
 ### 3D Caricature Dataset
 
 ![3d_dataset](./fig/3d.jpg)
+
+We use [the method](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Alive_Caricature_From_CVPR_2018_paper.pdf) to generate 5,343 3D caricature meshes of the same topology. We align the pose of the generated 3D caricature meshes with the pose of a template 3D head using an ICP method, where we use 5 key landmarks in eyes, nose and mouth as the landmarks for ICP. We normalize the coordinates of the 3D caricature mesh vertices by translating the center of meshes to the origin and scaling them to the same size.
 
 ### 3DCariPCA
 
 ### Download
 
-You can download the two datasets and PCA in [google drive]() and [BaiduYun](https://pan.baidu.com/s/1rtFtOeixNS1CACaZagrNLw) (code: 3kz8).
+You can download the two datasets and PCA in [google drive](https://drive.google.com/drive/folders/13lYYHOIQN_jJG5d-mBglD0BjWY1lqOWy?usp=sharing) and [BaiduYun](https://pan.baidu.com/s/1rtFtOeixNS1CACaZagrNLw) (code: 3kz8).
 
 ## Source Code
 
@@ -30,4 +34,4 @@ You can download the two datasets and PCA in [google drive]() and [BaiduYun](htt
 
 ### Pre-trained Model
 
-You can download pre-trained model in [google drive]() and [Baidu Pan]().
+You can download pre-trained model ```latest.pth``` in [google drive](https://drive.google.com/drive/folders/13lYYHOIQN_jJG5d-mBglD0BjWY1lqOWy?usp=sharing) and [BaiduYun](https://pan.baidu.com/s/1rtFtOeixNS1CACaZagrNLw) (code: 3kz8). You should put it into ```./checkpoints```.
