@@ -4,11 +4,25 @@ This repository contains the source code and dataset for the paper 3D-CariGAN: A
  
 This repository contains two parts: dataset and source code.
 
-## Dataset
+## 2D and 3D Caricature Dataset
 
-![avatar](./fig/2d.jpg)
+![2d_dataset](./fig/2d.jpg)
+![3d_dataset](./fig/3d.jpg)
+
+### 3DCariPCA
+
+### Download
+
+You can download the two datasets and PCA in [google drive]() and [Baidu Pan]().
 
 ## Source Code
 
 ### Running Environment
 
+### Training
+
+### Testing
+
+### Pre-trained Model
+
+You can download pre-trained model in [google drive]() and [Baidu Pan]().
