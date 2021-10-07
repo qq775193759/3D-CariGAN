@@ -24,7 +24,7 @@ The 3D dataset is in ```cari_3D_dataset.zip``` file.
 
 ### 3DCariPCA
 
-We use the 3D caricature dataset to build a PCA model, 3DCariPCA. We use ```sklearn.decomposition.PCA``` to build 3DCariPCA. The PCA model is ```pca200_icp.model``` file.
+We use the 3D caricature dataset to build a PCA model. We use ```sklearn.decomposition.PCA``` to build 3DCariPCA. The PCA model is ```pca200_icp.model``` file.
 
 ### Download
 
@@ -40,7 +40,11 @@ You can install the environment directly by conda using ```conda env create -f e
 
 ### Training
 
-### Testing
+We use our 3D caricature dataset and [CelebA-Mask-HQ dataset]() to train 3D-CariGAN. You could download CelebA-Mask-HQ dataset to train your model. 
+
+### Inferring
+
+The inferring code is in ```pipeline``` folder. You could train your model or use our pre-trained model.
 
 ### Pre-trained Model
 

@@ -13,7 +13,7 @@ from torch.utils.data import DataLoader
 from torchvision import datasets
 from torch.autograd import Variable
 
-from models import *
+from models.models import *
 from datasets import *
 from utils import parser_set
 
@@ -21,10 +21,11 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch
 
-# nohup python cyclegan.py > log.txt &
 os.environ['CUDA_VISIBLE_DEVICES']='5'
 
-test_name = 'test5_gpu5'
+test_name = 'test1'
+
+data_root = './data_root/'
 
     
 def PCA_IMG_loader():
@@ -35,7 +36,7 @@ def PCA_IMG_loader():
         transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
     ]
     dataloader = DataLoader(
-        PCA_IMG_OBJ_online_Dataset('/home/yezipeng/talkingheadData/caricature_rewrite/npy_save/partAllpca200_icp.npy', '/home/yezipeng/talkingheadData/caricature_rewrite/CelebA-HQ-img256',
+        PCA_IMG_OBJ_online_Dataset(data_root+'partAllpca200_icp.npy', '/home/yezipeng/talkingheadData/caricature_rewrite/CelebA-HQ-img256',
         '/home/yezipeng/talkingheadData/caricature_rewrite/celebA_head_wo_pose_norm_npy',
         img_transforms_=transforms_),
         batch_size=opt.batch_size,
@@ -62,9 +63,7 @@ def pca_cyclegan_main():
     optimizer_G = torch.optim.Adam(G_IMG2PCA.parameters(), lr=opt.lr, betas=(opt.b1, opt.b2))
     optimizer_D = torch.optim.Adam(D_PCA.parameters(), lr=opt.lr, betas=(opt.b1, opt.b2))
     criterion_GAN = torch.nn.BCELoss()
-    data_root = '/home/yezipeng/talkingheadData/caricature_rewrite/npy_save/'
-    #criterion_IDD = IDDloss_fullobj(data_root+'pca200.model', data_root+'warehouse_0.obj')
-    #criterion_IDD = IDDloss_fullobj_front(data_root+'pca200_icp.model', data_root+'warehouse_0.obj', data_root+'front_part_v.txt')
+
     criterion_IDD = IDDloss_fullobj_front_seperate_mean(data_root+'pca200_icp.model', data_root+'warehouse_0.obj', data_root+'front_part_v.txt')
     #return
 

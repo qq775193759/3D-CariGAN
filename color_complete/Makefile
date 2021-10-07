@@ -1,1 +1,0 @@
-g++ main.cpp -o color -std=c++11
