@@ -1,6 +1,7 @@
 # 3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos
 
-This repository contains the source code and dataset for the paper 3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos by [Yong-Jin Liu](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm).
+This repository contains the source code and dataset for the paper 3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos by [Yong-Jin Liu](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm), [Yu-Kun
+Lai](http://users.cs.cf.ac.uk/Yukun.Lai/) and [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/).
  
 This repository contains two parts: dataset and source code.
 
@@ -49,3 +50,13 @@ The inferring code is in ```pipeline``` folder. You could train your model or us
 ### Pre-trained Model
 
 You can download pre-trained model ```latest.pth``` in [google drive](https://drive.google.com/drive/folders/13lYYHOIQN_jJG5d-mBglD0BjWY1lqOWy?usp=sharing) and [BaiduYun](https://pan.baidu.com/s/1rtFtOeixNS1CACaZagrNLw) (code: 3kz8). You should put it into ```./checkpoints```.
+
+
+
+## Additional notes
+
+Please cite the following paper if the dataset and code help your research:
+
+Citation:
+
+The paper will be published.
