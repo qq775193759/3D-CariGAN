@@ -41,11 +41,13 @@ You can install the environment directly by using ```conda env create -f env.yml
 
 ### Training
 
-We use our 3D caricature dataset and [CelebA-Mask-HQ dataset]() to train 3D-CariGAN. You could download CelebA-Mask-HQ dataset and then reconstruct their 3D normal heads of all images. The 3D normal heads are for calculating loss.
+We use our 3D caricature dataset and [CelebA-Mask-HQ dataset](https://github.com/lee7282007/CelebAMask-HQ) to train 3D-CariGAN. You could download CelebA-Mask-HQ dataset and then reconstruct their 3D normal heads of all images. The 3D normal heads are for calculating loss.
 
 ### Inferring
 
-The inferring code is in ```pipeline``` folder. You could train your model or use our pre-trained model.
+The inferring code is ```cari_pipeline.py``` file in ```pipeline``` folder. You could train your model or use our pre-trained model.
+
+The pipeline includes two optional sub-program ```eye_complete``` and ```color_complete```, which are implemented by C++. You should compile them and then use them. The ```eye_complete``` is for completing the eye part of mesh and the ```color_complete``` is for texture completion.
 
 ### Pre-trained Model
 
