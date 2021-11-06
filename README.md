@@ -1,7 +1,7 @@
 # 3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos
 
-This repository contains the source code and dataset for the paper 3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos by [Yong-Jin Liu](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm), [Yu-Kun
-Lai](http://users.cs.cf.ac.uk/Yukun.Lai/) and [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/), which is accepted by IEEE Transactions on Visualization and Computer Graphics (TVCG).
+This repository contains the source code and dataset for the paper 3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos by Zipeng Ye, Mengfei Xia, Yanan Sun, Ran Yi, Minjing Yu, [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/), [Yu-Kun
+Lai](http://users.cs.cf.ac.uk/Yukun.Lai/) and [Yong-Jin Liu](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm), which is accepted by IEEE Transactions on Visualization and Computer Graphics (TVCG).
  
 This repository contains two parts: dataset and source code.
 
@@ -62,8 +62,8 @@ Please cite the following paper if the dataset and code help your research:
 Citation:
 
 ```
-@article{ye2021caricature,
- author = {Zipeng Ye, Mengfei Xia, Yanan Sun, Ran Yi, Minjing Yu, Juyong Zhang, Yu-Kun Lai, Yong-Jin Liu},
+@article{zipeng2021caricature,
+ author = {Zipeng, Ye and Mengfei, Xia and Yanan, Sun and Ran, Yi and Minjing, Yu and Juyong, Zhang and Yu-Kun, Lai and Yong-Jin Liu},
  title = {3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos},
  journal = {IEEE Transactions on Visualization and Computer Graphics},
  year = {2021},
