@@ -1,7 +1,7 @@
 # 3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos
 
 This repository contains the source code and dataset for the paper 3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos by [Yong-Jin Liu](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm), [Yu-Kun
-Lai](http://users.cs.cf.ac.uk/Yukun.Lai/) and [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/).
+Lai](http://users.cs.cf.ac.uk/Yukun.Lai/) and [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/), which is accepted by IEEE Transactions on Visualization and Computer Graphics (TVCG).
  
 This repository contains two parts: dataset and source code.
 
@@ -60,5 +60,7 @@ You can download pre-trained model ```latest.pth``` in [google drive](https://dr
 Please cite the following paper if the dataset and code help your research:
 
 Citation:
+
+
 
 The paper will be published.
