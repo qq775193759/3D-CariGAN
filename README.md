@@ -61,12 +61,13 @@ Please cite the following paper if the dataset and code help your research:
 
 Citation:
 
-可以只写author, title, journal, year
+'''
 @article{ye2021caricature,
  author = {Zipeng Ye, Mengfei Xia, Yanan Sun, Ran Yi, Minjing Yu, Juyong Zhang, Yu-Kun Lai, Yong-Jin Liu},
  title = {3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos},
  journal = {IEEE Transactions on Visualization and Computer Graphics},
  year = {2021},
 }
+'''
 
 The paper will be published.
