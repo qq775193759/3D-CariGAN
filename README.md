@@ -66,6 +66,7 @@ Citation:
  title = {3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos},
  journal = {IEEE Transactions on Visualization and Computer Graphics},
  year = {2021},
+ doi={10.1109/TVCG.2021.3126659},
 }
 ```
 
