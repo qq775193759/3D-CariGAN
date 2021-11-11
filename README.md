@@ -2,7 +2,8 @@
 
 This repository contains the source code and dataset for the paper 3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos by [Zipeng Ye](https://qq775193759.github.io/), Mengfei Xia, Yanan Sun, Ran Yi, Minjing Yu, [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/), [Yu-Kun Lai](http://users.cs.cf.ac.uk/Yukun.Lai/) and [Yong-Jin Liu](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm), which is accepted by IEEE Transactions on Visualization and Computer Graphics (TVCG).
 
-[paper](https://doi.org/10.1109/TVCG.2021.3126659) [Arxiv (old version)](https://arxiv.org/abs/2003.06841)
+[paper](https://doi.org/10.1109/TVCG.2021.3126659) 
+[Arxiv (old version)](https://arxiv.org/abs/2003.06841)
  
 This repository contains two parts: dataset and source code.
 
